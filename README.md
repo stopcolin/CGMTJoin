@@ -25,7 +25,7 @@ You can either use the Demo in the sidebar or host it yourself, as it is just a 
 
 Using the Demo cuts down the customization options to the required minimum.
 To use the demo effectively here are the query parameters, the script uses to do it's thing:
-`https://setcr4.github.io/GModJoiner?ip=[IPADDRESS]&port=[PORT]&pass=[PASSWORD]`
+`https://stopcolin.github.io/CGMTJoin/?ip=IPADDRESS&port=PORT&pass=PASSWORD`
 
 | Parameter | Meaning | Required? |
 | - | - | - |
