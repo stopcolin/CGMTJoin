@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
 
 body {
-    background-color: #1a0033;
+    background-color: #010915;
     margin: 0;
 }
 
@@ -50,7 +50,7 @@ body {
     right: 0;
     min-height: 60px;
     height: 0px;
-    background: rgba(131, 0, 145, 0.27);
+    background: rgba(3, 24, 43, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -83,7 +83,7 @@ body {
 }
 
 .footer .footeritem a {
-    color: #d9d7ff;
+    color: #c8cfd5;
 }
 
 .footer .footeritem a:hover {
@@ -109,7 +109,7 @@ body {
     min-height: 40px;
     min-width: 20vw;
     height: 0px;
-    background: rgba(131, 0, 145, 0.27);
+    background: rgba(3, 24, 43, 0.5);
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -133,8 +133,8 @@ body {
 }
 
 .button {
-    background-color: rgba(193, 63, 207, 0.47);
-    border: none;
+    background-color: rgba(3, 67, 109, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.15);
     color: white;
     text-align: center;
     text-decoration: none;
