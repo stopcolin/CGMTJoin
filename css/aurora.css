@@ -1,102 +1,97 @@
-body{
+body {
     margin: 0;
     padding: 0;
     min-height: 100vh;
-    background-image: linear-gradient(80deg, #1a0033, #3a0170);
+    background-image: linear-gradient(
+        180deg,
+        #010915 0%,
+        #03182b 30%,
+        #03436d 65%,
+        #4f728c 78%,
+        #c8cfd5 90%,
+        #c8cfd5 100%
+    );
     overflow: hidden;
-    font-family: 'poppins';
-}
-body.light{
-    background-image: linear-gradient(80deg, #a161dd, #a565e0);
+    font-family: 'poppins', sans-serif;
 }
 
-#up{
+#up {
     position: absolute;
     z-index: -1;
     height: 80vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #ac05a4, #f72b9180);
-    filter: blur(80px);
+    background-image: linear-gradient(180deg, #055f9e, #0b82b980);
+    filter: blur(90px);
     animation: down 40s infinite;
 }
-.light #up{
-    background-image: linear-gradient(80deg, #f576bccc, #f37ab7);
-}
 
-#down{
+#down {
     position: absolute;
     z-index: -1;
     right: 0;
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #f32596cc, #f37ab7);
+    background-image: linear-gradient(180deg, #628ea699, #d0d7dc);
     filter: blur(80px);
     animation: up 30s infinite;
 }
-.light #down{
-    background-image: linear-gradient(80deg, #e966e2, #f72b9180);
-}
 
-#left{
+#left {
     position: absolute;
     z-index: -1;
     height: 50vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #6f05ac, #7a34fdcc);
+    background-image: linear-gradient(180deg, #033252, #085e8ccc);
     filter: blur(80px);
     animation: left 30s 1s infinite;
 }
-.light #left{
-    background-image: linear-gradient(80deg, #b2c9fa99, #7eeff780);
-}
 
-#right{
+#right {
     position: absolute;
     z-index: -1;
     height: 40vh;
     aspect-ratio: 1/1;
     border-radius: 50%;
-    background-image: linear-gradient(80deg, #125bf899, #0abac780);
+    background-image: linear-gradient(180deg, #1d6b9980, #b8c8d480);
     filter: blur(80px);
     animation: right 40s .5s infinite;
 }
-.light #right{
-    background-image: linear-gradient(80deg, #cf91f3, #9866f3cc);
-}
 
-
-@keyframes down{
-    0%, 100%{
+@keyframes down {
+    0%, 100% {
         top: calc(0% - 100px);
     }
-    70%{
+    70% {
         top: calc(100% - 300px);
     }
 }
-@keyframes up{
-    0%, 100%{
+
+@keyframes up {
+    0%, 100% {
         bottom: calc(0% - 100px);
     }
-    70%{
+    70% {
         bottom: calc(100% - 300px);
     }
 }
-@keyframes left{
-    0%, 100%{
+
+@keyframes left {
+    0%, 100% {
         left: calc(0% - 100px);
     }
-    70%{
+    70% {
         left: calc(100% - 250px);
     }
 }
-@keyframes right{
-    0%, 100%{
+
+@keyframes right {
+    0%, 100% {
         right: calc(0% - 100px);
     }
-    70%{
+    70% {
         right: calc(100% - 250px);
     }
 }
